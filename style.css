@@ -1,0 +1,45 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+    margin: 0;
+}
+
+/* Navegação */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #e8491d;
+}
+
+/* Conteúdo principal */
+.main {
